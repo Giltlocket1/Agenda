@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Estadísticas</title>
+  
+  <link rel="stylesheet" href="./bootstrap-5.0.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5 mb-4">Calculadora de Estadísticas</h1>
+    <div class="mb-3">
+      <label for="numbers" class="form-label">Ingrese una lista de números separados por comas:</label>
+      <input type="text" class="form-control" id="numbers" placeholder="Ej: 1, 2, 3, 4, 5">
+    </div>
+    <button type="button" class="btn btn-primary mb-3" onclick="calculate()">Calcular</button>
+    <div id="results"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
